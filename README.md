@@ -35,5 +35,5 @@ Useful Gradle tasks and flags:
 Note that most tasks that are not specific to a single project can be run with `name:` prefix, where the `name` should be replaced with the ID of a specific project.
 For example, `core:clean` removes `build` folder only from the `core` project.
 
-> [Important] 
-> This project uses Java 1.17
+> [!Important] 
+> This project uses Java 1.17; execute the intended task using `./gradlew teavm:run`
