@@ -4,7 +4,7 @@ package de.grnx.reactionroom.teavm
 
 import com.github.xpenatan.gdx.backends.teavm.TeaApplicationConfiguration
 import com.github.xpenatan.gdx.backends.teavm.TeaApplication
-import de.grnx.reactionroom.Main
+import de.grnx.reactionroom.GameLauncher
 
 /** Launches the TeaVM/HTML application. */
 fun main() {
@@ -19,5 +19,5 @@ fun main() {
         width = -1
         height = -1
     }
-    TeaApplication(Main(), config)
+    TeaApplication(GameLauncher(), config)
 }
