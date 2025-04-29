@@ -12,7 +12,8 @@ import ktx.app.KtxGame
 /** [com.badlogic.gdx.ApplicationListener] implementation shared by all platforms. */
 
 class GameLauncher : KtxGame<AbstractScreen>() {
-    val batch: Batch = SpriteBatch() // val batch : Batch by lazy { SpriteBatch() } // todo
+    val batch : Batch by lazy { SpriteBatch() }
+    //val batch: Batch = SpriteBatch() //  // todo
     override fun create() {
         Gdx.app.logLevel = LOG_DEBUG
 
